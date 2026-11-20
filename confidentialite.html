@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Politique de confidentialité · Up&amp;In Conseils</title>
+<meta name="description" content="Politique de confidentialité d&#x27;Up&amp;In : secret professionnel, anonymisation, coordination avec les soignants, situations de signalement.">
+<link rel="canonical" href="https://www.cabinet-upandin-project.com/confidentialite">
+<meta name="robots" content="index, follow">
+<meta property="og:type" content="website"><meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Politique de confidentialité · Up&amp;In Conseils"><meta property="og:description" content="Politique de confidentialité d&#x27;Up&amp;In : secret professionnel, anonymisation, coordination avec les soignants, situations de signalement."><meta property="og:url" content="https://www.cabinet-upandin-project.com/confidentialite">
+<meta name="theme-color" content="#0F1E3C">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+<style>
+/* VOICE: un cabinet sérieux et chaleureux, ni clinique ni corporate.
+   IDEA: une porte à deux battants qui ouvre deux maisons Up&In.
+   PICTURE: l'arche dorée et ses deux battants, la flèche Up&In au fronton.
+   COLOUR and TYPE: charte Up&In, marine #0F1E3C, crème, or #C9A055 ; Playfair Display, Cormorant Garamond, police système.
+   LAYOUT: porte plein écran, puis site Conseils à onglets, une vue par onglet. */
+:root{color-scheme:light}
+*{box-sizing:border-box;min-width:0}
+html{scroll-padding-top:160px}
+body{margin:0;background:#F7F5F0;overflow-x:clip}
+a{color:#0F1E3C}a:hover{color:#C9A055}
+button,a{-webkit-tap-highlight-color:transparent}
+button:focus-visible,a:focus-visible{outline:2px solid #E0BA78;outline-offset:3px}
+.tab{display:inline-flex;align-items:center;text-decoration:none;background:none;border:none;border-bottom:2px solid transparent;cursor:pointer;font:500 14px -apple-system,'Segoe UI',Helvetica,Arial,sans-serif;padding:12px 0;min-height:44px;color:rgba(253,252,247,0.78)}
+.tab[aria-current=page]{color:#FDFCF7;font-weight:700;border-bottom-color:#C9A055}
+.tab:hover{color:#FDFCF7}
+#porte-view{background:#0F1E3C;min-height:100vh}
+.tsize{min-width:44px;height:44px;padding:0 8px;border-radius:6px;cursor:pointer;font-family:Georgia,serif;font-weight:700;line-height:1;background:none;color:#FDFCF7;border:2px solid rgba(253,252,247,0.45)}
+.tsize[aria-pressed=true]{background:#C9A055;color:#0F1E3C;border-color:#C9A055}
+details summary{min-height:44px}
+
+@media (max-width:600px){#porte-view main>div{border-radius:160px 160px 8px 8px!important;padding-top:84px!important}}
+@media (prefers-reduced-motion:no-preference){.view:not([hidden]),#porte-view:not([hidden]){animation:fade .35s ease-out}@keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}}
+.prose{max-width:760px;margin:0 auto;padding:72px 32px 96px;color:#1B2333;font-size:17px;line-height:1.75}
+.prose h2{font-family:'Playfair Display',Georgia,serif;font-weight:800;color:#0F1E3C;font-size:clamp(24px,2.6vw,32px);line-height:1.2;margin:2.2em 0 .6em}
+.prose h2 em,.prose h1 em{font-style:italic;color:#8A6A2F}
+.prose h3,.prose h4{font-family:'Playfair Display',Georgia,serif;font-weight:700;color:#0F1E3C;font-size:20px;margin:1.6em 0 .3em}
+.prose .kicker{font-family:'Cormorant Garamond',Georgia,serif;font-weight:600;font-size:14px;letter-spacing:4px;text-transform:uppercase;color:#8A6A2F;margin:3em 0 -1.2em}
+.prose .label{font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;font-size:21px;color:#0F1E3C;margin:1.4em 0 .2em}
+.prose blockquote,.prose .pull{border-left:3px solid #C9A055;margin:1.6em 0;padding:.2em 0 .2em 1.2em;font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;font-size:24px;line-height:1.4;color:#0F1E3C}
+.prose .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px;margin:1.6em 0}
+.prose .stat{background:#fff;border:1px solid rgba(15,30,60,.15);border-radius:12px;padding:18px 20px;display:flex;flex-direction:column;gap:4px}
+.prose .stat strong{font-family:'Playfair Display',Georgia,serif;font-size:26px;color:#0F1E3C}.prose .stat span{font-size:15px}.prose .stat em{font-size:13px;color:#4B5468}
+.prose table{width:100%;border-collapse:collapse;margin:1.4em 0;font-size:15px;display:block;overflow-x:auto}
+.prose caption{caption-side:top;text-align:left;font-size:14px;color:#4B5468;padding-bottom:8px}
+.prose th,.prose td{border-bottom:1px solid rgba(15,30,60,.15);padding:10px 12px;text-align:left}.prose th{color:#0F1E3C}
+.prose ul,.prose ol{padding-left:1.2em}.prose li{margin:.4em 0}
+.prose li strong{display:inline}.prose a{color:#0F1E3C;text-decoration-color:#C9A055;text-underline-offset:3px}
+.prose dl{display:grid;grid-template-columns:minmax(120px,max-content) 1fr;gap:6px 20px;margin:1em 0}.prose dt{font-weight:700;color:#0F1E3C}.prose dd{margin:0}
+.prose .back{display:inline-block;margin-top:2.4em;font-weight:700;text-decoration:none;border-bottom:2px solid #C9A055;padding:6px 0}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:22px}
+.card{background:#fff;border:1px solid rgba(15,30,60,.15);border-radius:12px;padding:28px 26px;display:flex;flex-direction:column;gap:10px;text-decoration:none;color:#1B2333}
+.card:hover{border-color:#C9A055}.card h3{margin:0;font-family:'Playfair Display',Georgia,serif;font-size:21px;color:#0F1E3C;line-height:1.3}.card p{margin:0;font-size:15px;line-height:1.6;color:#4B5468}
+.card .k{font-family:'Cormorant Garamond',Georgia,serif;font-weight:600;font-size:13px;letter-spacing:3px;text-transform:uppercase;color:#8A6A2F}.card .go{margin-top:auto;font-weight:700;color:#0F1E3C}
+</style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebPage", "url": "https://www.cabinet-upandin-project.com/transitions-de-vie", "about": {"@id": "https://www.cabinet-upandin-project.com/#cabinet"}}]}</script>
+</head>
+<body>
+
+
+
+<div style="font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; color: #1B2333; background: #F7F5F0; min-width: 300px">
+<header style="background: #0F1E3C; border-bottom: 1px solid rgba(255,255,255,0.12); position: sticky; top: 0; z-index: 10">
+<div style="background: #0B1730; border-bottom: 1px solid rgba(255,255,255,0.12)">
+<div style="max-width: 1240px; margin: 0 auto; padding: 6px 32px; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 8px">
+<a href="/" style="color: rgba(253,252,247,0.9); text-decoration: none; font-size: 14px; font-weight: 600; padding: 10px 0">← Portail Up<span style="font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-style: normal; font-weight: 600; color: #C9A055">&amp;</span>In</a>
+<a href="https://www.upandin-autonomie.fr" style="color: #E0BA78; text-decoration: none; font-size: 14px; font-weight: 600; padding: 10px 0">Family Office de l'Autonomie →</a>
+</div>
+</div>
+<div style="max-width: 1240px; margin: 0 auto; padding: 18px 32px 6px; display: flex; flex-direction: column; align-items: center; gap: 10px">
+<a href="/conseils" aria-label="Up&amp;In Conseils — retour à l'accueil" style="text-decoration: none; display: inline-block; display: flex; align-items: center; gap: 14px; background: none; border: none; padding: 0; text-align: left">
+<svg width="34" height="34" viewBox="0 0 100 100" aria-hidden="true"><rect x="2" y="2" width="96" height="96" rx="20" fill="#0F1E3C" stroke="#C9A055" stroke-width="3"></rect><svg x="36" y="18" width="28" height="64" viewBox="12 40 66 150"><line x1="18" y1="184" x2="45" y2="114" stroke="#FDFCF7" stroke-width="6" stroke-linecap="round"></line><line x1="72" y1="184" x2="45" y2="114" stroke="#FDFCF7" stroke-width="6" stroke-linecap="round"></line><line x1="45" y1="114" x2="45" y2="56" stroke="#C9A055" stroke-width="5.4" stroke-linecap="round"></line><polygon points="45,44 36,64 54,64" fill="#C9A055"></polygon><circle cx="45" cy="114" r="9" fill="#0F1E3C" stroke="#C9A055" stroke-width="3.2"></circle></svg></svg>
+<span style="display: flex; flex-direction: column; gap: 3px">
+<span style="font-family: 'Playfair Display', Georgia, serif; font-weight: 800; font-size: 24px; line-height: 1; color: #FDFCF7">Up<span style="font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-style: normal; font-weight: 600; color: #C9A055">&amp;</span>In</span>
+<span style="font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 600; font-size: 11px; letter-spacing: 3px; text-transform: uppercase; color: #E0BA78">Conseils</span>
+</span>
+</a>
+<nav aria-label="Navigation principale" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 4px 30px">
+<a href="/conseils" class="tab">Accueil</a>
+<a href="/transitions-de-vie" class="tab">Transitions de vie</a>
+<a href="/addictologie" class="tab">Addictologie</a>
+<a href="/entreprises" class="tab">Entreprises</a>
+<a href="/methode" class="tab" style="text-decoration: none; display: inline-block; ">Méthode M.I.R.E.S.®</a>
+<a href="/publications" class="tab" style="text-decoration: none; display: inline-block; ">Publications</a>
+<a href="/cabinet" class="tab">Le cabinet</a>
+<a href="/contact" class="tab">Contact</a>
+</nav>
+</div>
+<div style="display: flex; justify-content: center; padding: 0 32px 16px">
+<a href="/contact" style="text-decoration: none; display: inline-block; background: #C9A055; color: #0F1E3C; border: none; font-size: 15px; font-weight: 700; padding: 13px 36px; border-radius: 4px; letter-spacing: 0.3px">Prendre rendez-vous</a>
+</div>
+</header>
+<main>
+<section style="background: #0F1E3C; color: #FDFCF7; position: relative; overflow: hidden">
+<div style="position: relative; max-width: 1240px; margin: 0 auto; padding: 80px 32px 72px; display: flex; flex-direction: column; gap: 18px">
+<p style="margin: 0; font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 600; font-size: 14px; letter-spacing: 4px; text-transform: uppercase; color: #E0BA78">Informations légales</p>
+<h1 style="margin: 0; max-width: 920px; font-family: 'Playfair Display', Georgia, serif; font-weight: 800; font-size: clamp(32px, 4.2vw, 54px); line-height: 1.1; color: #FDFCF7">Politique de <em style="color:#E0BA78">confidentialité</em></h1>
+<p style="margin: 0; max-width: 760px; font-family: 'Cormorant Garamond', Georgia, serif; font-style: italic; font-weight: 500; font-size: 23px; line-height: 1.4; color: rgba(253,252,247,0.86)">Secret professionnel et engagement éthique du cabinet</p>
+</div>
+</section>
+<article class="prose">
+<p>Ce que vous nous confiez ne sort pas de ce cabinet — sauf situations strictement encadrées par la loi. La confidentialité n'est pas un détail administratif : elle est la <strong>condition même</strong> du travail d'accompagnement.</p>
+<h2 id="engagement">Engagement de confidentialité</h2>
+<p>Up<span style="font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-style: normal; font-weight: 500">&amp;</span>In s'engage à respecter la <strong>confidentialité absolue</strong> des informations confiées dans le cadre de ses accompagnements. Cet engagement couvre tout ce qui est échangé pendant les séances, ainsi que toute correspondance écrite ou électronique liée à un suivi.</p>
+<ul><li><strong>Confidentialité</strong> : aucune information personnelle ne sort du cabinet sans votre accord écrit explicite.</li><li><strong>Neutralité</strong> : aucun jugement de valeur, aucune instrumentalisation, aucune divulgation à des tiers.</li><li><strong>Pérennité</strong> : l'engagement s'applique pendant et au-delà de l'accompagnement, sans limite de durée.</li></ul>
+<h2 id="secret">Secret professionnel</h2>
+<p>Bien qu'Up<span style="font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-style: normal; font-weight: 500">&amp;</span>In ne relève pas du secret médical au sens strict (article L.1110-4 du Code de la santé publique), le cabinet s'astreint à un <strong>secret professionnel équivalent</strong>, fondé sur :</p>
+<ul><li>Le respect de la vie privée (article 9 du Code civil)</li><li>La déontologie du conseil comportemental</li><li>L'engagement contractuel pris avec chaque personne accompagnée</li><li>Les obligations du Code pénal (article 226-13 sur la violation du secret)</li></ul>
+<p>Le contenu des séances, les notes prises, les documents partagés et toute information personnelle <strong>ne peuvent être communiqués à aucun tiers</strong>, qu'il s'agisse de membres de la famille, d'employeurs, d'institutions, ou de toute autre personne — sauf dans les cas strictement encadrés ci-dessous.</p>
+<h2 id="anonymisation">Anonymisation des cas</h2>
+<p>Lorsqu'Up<span style="font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-style: normal; font-weight: 500">&amp;</span>In évoque des situations rencontrées en pratique — échanges entre confrères, supervisions, publications, conférences ou supports pédagogiques — toutes les informations permettant d'identifier les personnes sont <strong>systématiquement anonymisées</strong> :</p>
+<ul><li>Modification des prénoms, âges, professions, lieux</li><li>Suppression de tout détail biographique permettant la reconnaissance</li><li>Combinaison de plusieurs cas pour brouiller les traits identifiants</li><li>Aucune photographie, enregistrement ou citation textuelle sans consentement écrit</li></ul>
+<p>L'anonymisation est <strong>irréversible</strong> : les versions anonymisées ne peuvent en aucun cas être recoupées avec les dossiers réels.</p>
+<h2 id="coordination">Coordination avec les confrères du soin</h2>
+<p>Up<span style="font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-style: normal; font-weight: 500">&amp;</span>In s'inscrit en complément du soin médical et psychologique. Une coordination avec les confrères (médecin traitant, addictologue, psychiatre, psychologue) peut être <strong>utile, voire nécessaire</strong> — mais elle ne se fait <strong>jamais</strong> sans votre accord explicite.</p>
+<ul><li>Un consentement écrit préalable est demandé avant tout échange avec un confrère identifié</li><li>L'échange se limite strictement aux informations utiles à la coordination du parcours</li><li>Vous pouvez à tout moment retirer ce consentement</li><li>Vous êtes informé des éléments transmis et pouvez en demander copie</li></ul>
+<h2 id="proches">Information des proches</h2>
+<p>Lorsque l'accompagnement concerne une personne qui consulte seule, <strong>aucune information n'est transmise à ses proches</strong> (conjoint, parents, enfants, employeur), même s'ils en font la demande directe ou s'ils ont eux-mêmes orienté la personne vers le cabinet.</p>
+<p>Lorsque l'accompagnement implique plusieurs membres d'une même famille, le cabinet précise dès la première rencontre <strong>les règles de circulation de l'information</strong> entre les personnes concernées.</p>
+<h2 id="signalements">Situations de signalement</h2>
+<p>Le secret professionnel <strong>n'est pas absolu</strong>. Dans certaines situations strictement encadrées par la loi, Up<span style="font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-style: normal; font-weight: 500">&amp;</span>In peut être tenu d'orienter vers les services compétents ou, exceptionnellement, de signaler :</p>
+<ul><li><strong>Mise en danger immédiate de soi</strong> : le cabinet vous orientera activement vers le 15 (Samu), le 3114 (numéro national de prévention du suicide) ou les urgences psychiatriques</li><li><strong>Mise en danger d'autrui</strong> (article 223-6 du Code pénal)</li><li><strong>Maltraitance avérée d'un mineur ou d'une personne vulnérable</strong> (article 434-3 du Code pénal)</li><li><strong>Réquisition judiciaire</strong> dûment notifiée par une autorité compétente</li></ul>
+<p>Dans toutes ces situations, le cabinet privilégie autant que possible un <strong>dialogue préalable</strong> avec la personne concernée, et n'agit qu'en dernier recours, en transparence, et dans le strict respect de la loi.</p>
+<h2 id="numerique">Confidentialité numérique</h2>
+<ul><li>Site web sécurisé en HTTPS (chiffrement TLS)</li><li>Messagerie professionnelle dédiée, distincte des comptes personnels</li><li>Notes d'accompagnement stockées sur un support chiffré</li><li>Aucun usage des réseaux sociaux pour partager des informations sur les accompagnements</li><li>Pas de visioconférence pour les contenus sensibles, sauf demande explicite via une plateforme sécurisée</li></ul>
+<p>Le détail du traitement de vos données personnelles est précisé dans la <a href="/rgpd">politique RGPD</a>.</p>
+<h2 id="publications">Publications et recherche</h2>
+<ul><li>Les cas sont systématiquement et irréversiblement anonymisés</li><li>Aucun consentement implicite n'est présumé : un accord écrit explicite est requis pour toute citation directe</li><li>Les personnes concernées peuvent demander à relire les passages les concernant avant publication</li><li>Les droits de retrait restent ouverts à tout moment, dans la mesure où la rétroactivité reste techniquement possible</li></ul>
+<p>Dernière mise à jour : novembre 2026.</p>
+
+</article>
+</main>
+
+
+<footer style="background: #0B1730; color: rgba(253,252,247,0.72)">
+<div style="max-width: 1240px; margin: 0 auto; padding: 48px 32px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 28px 48px; font-size: 13px; line-height: 1.6">
+<div style="display: flex; flex-direction: column; gap: 10px; max-width: 460px">
+<span style="font-family: 'Playfair Display', Georgia, serif; font-weight: 800; font-size: 22px; line-height: 1; color: #FDFCF7">Up<span style="font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-style: normal; font-weight: 600; color: #C9A055">&amp;</span>In</span>
+<span style="font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 600; font-size: 11px; letter-spacing: 3px; text-transform: uppercase; color: #E0BA78">Conseils</span>
+<p style="margin: 6px 0 0">Le Bouscat · Bordeaux Métropole. Accompagnement non médical, en complémentarité des équipes soignantes. En cas d'urgence, composez le 15 ou le 112.</p>
+</div>
+<nav aria-label="Liens de pied de page" style="display: flex; flex-wrap: wrap; gap: 8px 28px; align-items: start">
+<a href="/" style="color: #E0BA78; text-decoration: none; padding: 6px 0">Portail Up&amp;In</a>
+<a href="/transitions-de-vie" style="text-decoration: none; display: inline-block; color: rgba(253,252,247,0.86); padding: 6px 0; background: none; border: none; font-size: 13px; text-align: left">Transitions de vie</a><a href="/addictologie" style="text-decoration: none; display: inline-block; color: rgba(253,252,247,0.86); padding: 6px 0; background: none; border: none; font-size: 13px; text-align: left">Addictologie</a><a href="/entreprises" style="text-decoration: none; display: inline-block; color: rgba(253,252,247,0.86); padding: 6px 0; background: none; border: none; font-size: 13px; text-align: left">Entreprises</a><a href="/cabinet" style="text-decoration: none; display: inline-block; color: rgba(253,252,247,0.86); padding: 6px 0; background: none; border: none; font-size: 13px; text-align: left">Le cabinet</a><a href="/contact" style="text-decoration: none; display: inline-block; color: rgba(253,252,247,0.86); padding: 6px 0; background: none; border: none; font-size: 13px; text-align: left">Contact</a><a href="/mentions-legales" style="text-decoration: none; display: inline-block; color: rgba(253,252,247,0.86); padding: 6px 0; background: none; border: none; font-size: 13px; text-align: left">Mentions légales</a>
+<a href="/rgpd" style="text-decoration: none; display: inline-block; color: rgba(253,252,247,0.86); padding: 6px 0; background: none; border: none; font-size: 13px; text-align: left">RGPD</a>
+<a href="/confidentialite" style="text-decoration: none; display: inline-block; color: rgba(253,252,247,0.86); padding: 6px 0; background: none; border: none; font-size: 13px; text-align: left">Confidentialité</a>
+<a href="/publications" style="text-decoration: none; display: inline-block; color: rgba(253,252,247,0.86); padding: 6px 0; background: none; border: none; font-size: 13px; text-align: left">Publications</a>
+<a href="https://www.upandin-autonomie.fr" style="color: #E0BA78; text-decoration: none; padding: 6px 0">Family Office de l'Autonomie</a>
+</nav>
+</div>
+<div style="border-top: 1px solid rgba(255,255,255,0.12); text-align: center; padding: 18px 32px; font-size: 12px">© 2026 Up<span style="font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-style: normal; font-weight: 500">&amp;</span>In Conseils</div>
+</footer>
+
+</div>
+
+
+</body>
+</html>

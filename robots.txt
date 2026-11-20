@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.cabinet-upandin-project.com/sitemap.xml

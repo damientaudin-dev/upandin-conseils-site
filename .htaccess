@@ -1,0 +1,22 @@
+# Up&In Conseils — hébergement OVH
+Options -Indexes
+DirectoryIndex index.html
+AddDefaultCharset UTF-8
+RewriteEngine On
+# HTTPS + www
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} ^cabinet-upandin-project\.com$ [NC]
+RewriteRule ^(.*)$ https://www.cabinet-upandin-project.com/$1 [R=301,L]
+# Anciennes pages de la vitrine
+RedirectMatch 301 ^/pour-qui(\.html)?$ https://www.cabinet-upandin-project.com/conseils
+RedirectMatch 301 ^/damien-taudin(\.html)?$ https://www.cabinet-upandin-project.com/cabinet
+RedirectMatch 301 ^/assets/article_alcoolisme_upandin\.pdf$ https://www.cabinet-upandin-project.com/on-ne-nait-pas-alcoolique
+# Une seule adresse par page
+RewriteCond %{THE_REQUEST} \s/index\.html[\s?] [NC]
+RewriteRule ^index\.html$ https://www.cabinet-upandin-project.com/ [R=301,L]
+RewriteCond %{THE_REQUEST} \s/([^.\s?]+)\.html[\s?] [NC]
+RewriteRule ^ https://www.cabinet-upandin-project.com/%1 [R=301,L]
+# URL propres : /addictologie -> addictologie.html
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.+?)/?$ $1.html [L]
